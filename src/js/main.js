@@ -1,7 +1,5 @@
-import fetchData from './js/pixabay-api';
-import modulName from './js/render-functions';
-import { fetchImages } from './js/pixabay-api';
-import { renderGallery, clearGallery } from './js/render-functions';
+import { fetchImages } from './pixabay-api';
+import { renderGallery, clearGallery } from './render-functions';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
